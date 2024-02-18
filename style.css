@@ -1,0 +1,30 @@
+.container{
+    background-color: rgb(207, 216, 216);
+    width: 20em;
+    height: 24em;
+    margin: 50px auto;
+    padding: 20px 15px;
+    text-align: center;
+    font-weight: bold;
+}
+.title{
+    background-color: rgb(8, 77, 100);
+    padding: 10px;
+    margin-bottom: 12px;
+    color: white;
+    font-size: 30px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-around;
+}
+.boxes div{
+    width: 2.7em;
+    height: 2.4em;
+    margin: 5px;
+    background-color: rgb(8, 77, 100);
+    color: white;
+    font-size: 40px;
+    line-height:2.3em;
+}
